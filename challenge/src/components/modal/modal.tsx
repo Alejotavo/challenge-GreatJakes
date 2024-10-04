@@ -20,9 +20,9 @@ function ModalComponent() {
             </div>
             <div className="grid-item btn-content white"> <MainButton variant="primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ante leo. Nulla nec lectus accumsan ante </MainButton></div>
             <div className="grid-item btn-content display-icon white"> <MainButton variant="primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ante leo. Nulla nec lectus accumsan ante </MainButton></div>
-            <div className="grid-item btn-content white"> <MainButton variant="primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ante leo. Nulla nec lectus accumsan ante </MainButton></div>
-            <div className="grid-item btn-content white"> <MainButton variant="disable">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ante leo. Nulla nec lectus accumsan ante </MainButton></div>
-            <div className="grid-item btn-content white"> <MainButton variant="primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ante leo. Nulla nec lectus accumsan ante </MainButton></div>
+            <div className="grid-item-no-flex  btn-content white pt-5"> <MainButton variant="primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ante leo. Nulla nec lectus accumsan ante </MainButton></div>
+            <div className="grid-item-no-flex  btn-content white pt-5"> <MainButton variant="disable">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ante leo. Nulla nec lectus accumsan ante </MainButton></div>
+            <div className="grid-item-no-flex  btn-content white pt-5"> <MainButton variant="primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ante leo. Nulla nec lectus accumsan ante </MainButton></div>
         </div>
           </Modal.Body>
         </Modal.Dialog>
