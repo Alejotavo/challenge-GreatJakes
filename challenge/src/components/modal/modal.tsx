@@ -12,7 +12,11 @@ function ModalComponent() {
           <Modal.Body>
           <div className="grid-container">
             <div className="grid-item grid-item-tall  btn-content white"><MainButton variant="primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ante leo. Nulla nec lectus accumsan ante </MainButton></div>
-            <div className="grid-item btn-content green"> <MainButton variant="secondary">LoreLorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ante leo. Nulla nec lectus accumsan ante r</MainButton></div>
+            <div className="grid-item btn-content green"> 
+                <MainButton variant="secondary">
+                        SubmitLoreLorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ante leo. Nulla nec lectus accumsan ante r
+                </MainButton>
+            </div>
             <div className="grid-item btn-content white"> <MainButton variant="primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ante leo. Nulla nec lectus accumsan ante </MainButton></div>
             <div className="grid-item btn-content white"> <MainButton variant="primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ante leo. Nulla nec lectus accumsan ante </MainButton></div>
             <div className="grid-item btn-content white"> <MainButton variant="primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ante leo. Nulla nec lectus accumsan ante </MainButton></div>

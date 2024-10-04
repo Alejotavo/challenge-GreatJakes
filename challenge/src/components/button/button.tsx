@@ -12,7 +12,10 @@ interface MainButtonProps {
 const MainButton: FC<MainButtonProps> = ({ variant, children }) => {
     return (
       <Button className={`${styles.button} ${styles[variant]}`}>
+        <div className='btn-data-content'>
+        <i className="bi bi-search"></i> 
         <div className='truncated-text'>{children}</div>
+        </div>
       </Button>
     );
   };

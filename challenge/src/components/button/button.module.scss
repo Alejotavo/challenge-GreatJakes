@@ -1,12 +1,21 @@
 
-
 .button {
-  width: 310px;
+  width: 100%;
   height: 70px;
-    padding: 0.5rem 1rem;
-    border-radius: 70px;
-    border: none;
-    cursor: pointer;
+  border-radius: 70px;
+  border: none;
+  padding: 2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+  line-height: 24px;
+
+  i{
+    font-size: 1.375rem;
+    margin-right: 1rem;
+  }
   
     &.primary {
       background-color: var(--primary-color);
@@ -24,17 +33,7 @@
       color: var(--font-color);
       cursor: not-allowed;
       pointer-events: none; 
-
-    }
-  
-    &::before {
-      content: "\f0e7"; // Este es un ejemplo de código unicode de Font Awesome (puedes cambiarlo por un ícono de Bootstrap)
-      font-family: 'Bootstrap Icons'; // Asegúrate de que Bootstrap Icons esté cargado en tu proyecto
-      position: absolute;
-      left: 0.5rem; // Ajusta la posición del ícono
-      font-size: 1.2rem; // Tamaño del ícono
     }
   }
-
 
 

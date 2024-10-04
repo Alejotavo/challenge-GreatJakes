@@ -42,8 +42,12 @@
                 overflow: hidden; /* Oculta el desbordamiento */
                 text-overflow: ellipsis; /* Agrega puntos suspensivos al final */
                 line-height: 1.5em; /* Ajusta según el tamaño de la fuente */
+                text-align: left;
             }
         }
+        .btn-data-content{
+            display:contents;
+          }
         .green{
             background-color: var(--secondary-color);
         }
