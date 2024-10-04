@@ -4,6 +4,7 @@ import MainButton from '../button/button';
 import './../button/button.module.scss';
 
 function ModalComponent() {
+    
     return (
         <Modal.Dialog className='custom-modal-container'>
           <Modal.Header closeButton>
@@ -18,7 +19,7 @@ function ModalComponent() {
                 </MainButton>
             </div>
             <div className="grid-item btn-content white"> <MainButton variant="primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ante leo. Nulla nec lectus accumsan ante </MainButton></div>
-            <div className="grid-item btn-content white"> <MainButton variant="primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ante leo. Nulla nec lectus accumsan ante </MainButton></div>
+            <div className="grid-item btn-content display-icon white"> <MainButton variant="primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ante leo. Nulla nec lectus accumsan ante </MainButton></div>
             <div className="grid-item btn-content white"> <MainButton variant="primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ante leo. Nulla nec lectus accumsan ante </MainButton></div>
             <div className="grid-item btn-content white"> <MainButton variant="disable">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ante leo. Nulla nec lectus accumsan ante </MainButton></div>
             <div className="grid-item btn-content white"> <MainButton variant="primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ante leo. Nulla nec lectus accumsan ante </MainButton></div>

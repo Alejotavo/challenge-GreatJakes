@@ -10,23 +10,23 @@
 
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(4, 1fr); /* Tres columnas de igual tamaño */
+        grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        grid-gap: 20px; /* Espacio entre las tarjetas */
-        justify-content: center; /* Centrar la grilla horizontalmente */
-        padding-top: 100px; /* Espaciado desde el top */
+        grid-gap: 20px;
+        justify-content: center;
+        padding-top: 100px;
 
         .grid-item {
-            background-color: #ffffff; /* Fondo blanco para las tarjetas */
-            border: 2px solid #2b3e50; /* Borde oscuro */
+            background-color: #ffffff;
+            border: 2px solid #2b3e50;
             padding: 20px;
-            text-align: center; /* Centrar el contenido dentro de las tarjetas */
+            text-align: center;
             height: 322px;
         }
         
-        /* Este elemento ocupará dos filas */
+
         .grid-item-tall {
-            grid-row: span 3; /* Ocupar dos filas */
+            grid-row: span 3;
             height: 662px;
             display: flex;
             flex-direction: column;
@@ -35,18 +35,23 @@
 
         .btn-content{
             .truncated-text {
-                display: -webkit-box; /* Utiliza flexbox en navegadores que lo soportan */
-                -webkit-box-orient: vertical; /* Orienta la caja verticalmente */
-                -webkit-line-clamp: 2; /* Limita a dos líneas */
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2;
                 line-clamp: 2;
-                overflow: hidden; /* Oculta el desbordamiento */
-                text-overflow: ellipsis; /* Agrega puntos suspensivos al final */
-                line-height: 1.5em; /* Ajusta según el tamaño de la fuente */
+                overflow: hidden;
+                text-overflow: ellipsis;
                 text-align: left;
             }
         }
         .btn-data-content{
             display:contents;
+          }
+
+        .display-icon{
+            i{
+                display: none;
+            }
           }
         .green{
             background-color: var(--secondary-color);
@@ -56,20 +61,19 @@
         }
       }
 
-        /* Media Query para pantallas de 768px o menos */
 @media (max-width: 768px) {
     .grid-container {
-      grid-template-columns: 1fr; /* Una columna que ocupa el 100% */
-      padding-top: 50px; /* Opcional: ajustar el espaciado superior */
+      grid-template-columns: 1fr;
+      padding-top: 50px;
     }
   
     .grid-item {
-      margin: 0; /* Eliminar márgenes si es necesario */
-      width: 100%; /* Asegura que ocupe el 100% del contenedor */
+      margin: 0;
+      width: 100%;
     }
   
     .grid-item-tall {
-      grid-row: auto; /* Reiniciar el comportamiento de filas */
+      grid-row: auto;
     }
   }
 }
