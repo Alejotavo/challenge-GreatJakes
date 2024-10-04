@@ -6,6 +6,7 @@
 
     h3{
         font-size:  4.125rem;
+        font-weight: 400;
     }
 
     .grid-container {
@@ -14,7 +15,7 @@
         grid-template-rows: repeat(2, 1fr);
         grid-gap: 20px;
         justify-content: center;
-        padding-top: 100px;
+        padding-top: 60px;
 
         .grid-item {
             background-color: #ffffff;
@@ -92,3 +93,25 @@
 
 
 
+.btn-close{
+   display: none;
+}
+
+.custom-close-btn {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+    position: absolute;
+    transition: color 0.3s;
+    top: -30px;
+    right: -30px;
+
+    i{
+        font-size: 3rem;
+    }
+  
+    &:hover {
+      color: #a9a9a9;   
+    }
+  }

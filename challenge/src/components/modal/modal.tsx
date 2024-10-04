@@ -9,6 +9,7 @@ function ModalComponent() {
         <Modal.Dialog className='custom-modal-container'>
           <Modal.Header closeButton>
             <Modal.Title><h3>Firm Facts</h3></Modal.Title>
+            <button type="button" className="custom-close-btn" aria-label="Close"><i className="bi bi-x-lg"></i></button>
           </Modal.Header>
           <Modal.Body>
           <div className="grid-container">
