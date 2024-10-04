@@ -1,0 +1,24 @@
+@import 'bootstrap/scss/bootstrap';
+
+#root {
+  max-width: 1680px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+
+  --primary-color:#2D3E4E;
+  --secondary-color: #07C06A;
+  --disabed-color: #aaa;
+  --font-color: #ffffff;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+
+
+
+
