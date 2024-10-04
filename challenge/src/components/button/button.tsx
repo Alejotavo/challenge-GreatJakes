@@ -1,13 +1,11 @@
-import  { FC, ReactNode } from 'react'; // Asegúrate de importar FC y ReactNode
+import  { FC, ReactNode } from 'react';
 import { Button } from 'react-bootstrap';
 import styles from './button.module.scss';
 
 interface MainButtonProps {
-  variant: 'primary' | 'secondary' | 'disable'; // Especifica los posibles valores para la variante
-  children: ReactNode; // Define el tipo para children
+  variant: 'primary' | 'secondary' | 'disable';
+  children: ReactNode;
 }
-
-
 
 const MainButton: FC<MainButtonProps> = ({ variant, children }) => {
     return (
@@ -19,4 +17,5 @@ const MainButton: FC<MainButtonProps> = ({ variant, children }) => {
       </Button>
     );
   };
+  
 export default MainButton
