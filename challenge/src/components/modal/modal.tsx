@@ -13,13 +13,13 @@ function ModalComponent() {
           </Modal.Header>
           <Modal.Body>
           <div className="grid-container">
-            <div className="grid-item grid-item-tall  btn-content white"><MainButton variant="primary">This is a two lines button that terminates with </MainButton></div>
-            <div className="grid-item btn-content green"> <MainButton variant="secondary">This is a two lines button that terminates with </MainButton></div>
-            <div className="grid-item btn-content display-icon white"> <MainButton variant="primary">This is a one line button</MainButton></div>
-            <div className="grid-item btn-content white"> <MainButton variant="primary">This is a two lines button that terminates with  </MainButton></div>
-            <div className="grid-item-no-flex  btn-content white pt-5"> <MainButton variant="primary">This is a two lines button that terminates with </MainButton></div>
-            <div className="grid-item-no-flex  btn-content white pt-5"> <MainButton variant="disable">This is a two lines button that terminates with </MainButton></div>
-            <div className="grid-item-no-flex  btn-content white pt-5"> <MainButton variant="primary">This is a two lines button that terminates with </MainButton></div>
+            <div className=" grid-item-tall"><MainButton variant="primary">This is a two lines button that terminates with </MainButton></div>
+            <div className="grid-item"> <MainButton variant="primary">This is a two lines button that terminates with </MainButton></div>
+            <div className="grid-item display-icon"> <MainButton variant="primary">This is a one line button</MainButton></div>
+            <div className="grid-item"> <MainButton variant="primary">This is a two lines button that terminates with  </MainButton></div>
+            <div className="grid-item"> <MainButton variant="primary">This is a two lines button that terminates with </MainButton></div>
+            <div className="grid-item"> <MainButton variant="disable">This is a two lines button that terminates with </MainButton></div>
+            <div className="grid-item"> <MainButton variant="primary">This is a two lines button that terminates with </MainButton></div>
         </div>
           </Modal.Body>
         </Modal.Dialog>

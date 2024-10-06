@@ -18,21 +18,12 @@
         padding-top: 60px;
 
         .grid-item {
-            padding: 20px;
             text-align: center;
             height: 322px;
             display: flex;
             align-items: center;
             justify-content: center;
-        }
-
-        .grid-item-no-flex {
-            padding: 20px;
-            text-align: center;
-            height: 322px;
-            display: block;
-            align-items: center;
-            justify-content: center;
+            background: var(--font-color);
         }
 
         .grid-item-tall {
@@ -42,33 +33,6 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-        }
-
-        .btn-content{
-            .truncated-text {
-                display: -webkit-box;
-                -webkit-box-orient: vertical;
-                -webkit-line-clamp: 2;
-                line-clamp: 2;
-                overflow: hidden;
-                text-overflow: ellipsis;
-                text-align: left;
-            }
-        }
-        .btn-data-content{
-            display:contents;
-          }
-
-        .display-icon{
-            i{
-                display: none;
-            }
-          }
-        .green{
-            background-color: var(--secondary-color);
-        }
-        .white{
-            background-color: var(--font-color);
         }
     }
 
@@ -88,8 +52,6 @@
     }
   }
 }
-
-
 
 .btn-close{
    display: none;
