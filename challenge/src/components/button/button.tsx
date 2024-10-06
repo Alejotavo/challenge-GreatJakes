@@ -4,7 +4,7 @@ import styles from './button.module.scss';
 interface MainButtonProps {
   variant: 'primary' | 'disable';
   children: ReactNode;
-  customClass?: string; // Agrega esta línea
+  customClass?: string;
 }
 
 const MainButton: FC<MainButtonProps> =  ({ variant, children, customClass = '' })=> {
