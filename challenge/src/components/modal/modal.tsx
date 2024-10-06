@@ -17,9 +17,9 @@ function ModalComponent() {
             <div className="grid-item"> <MainButton variant="primary">This is a two lines button that terminates with </MainButton></div>
             <div className="grid-item display-icon"> <MainButton variant="primary">This is a one line button</MainButton></div>
             <div className="grid-item"> <MainButton variant="primary">This is a two lines button that terminates with  </MainButton></div>
-            <div className="grid-item"> <MainButton variant="primary">This is a two lines button that terminates with </MainButton></div>
-            <div className="grid-item"> <MainButton variant="disable">This is a two lines button that terminates with </MainButton></div>
-            <div className="grid-item"> <MainButton variant="primary">This is a two lines button that terminates with </MainButton></div>
+            <div className="grid-item"> <MainButton variant="primary" customClass="custom-style">This is a two lines button that terminates with </MainButton></div>
+            <div className="grid-item"> <MainButton variant="disable" customClass="custom-style">This is a two lines button that terminates with </MainButton></div>
+            <div className="grid-item"> <MainButton variant="primary" customClass="custom-style">This is a two lines button that terminates with </MainButton></div>
         </div>
           </Modal.Body>
         </Modal.Dialog>

@@ -26,6 +26,14 @@
             background: var(--font-color);
         }
 
+        .custom-style {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding-top: 45px;
+          }
+          
+
         .grid-item-tall {
             grid-row: span 3;
             height: 662px;
